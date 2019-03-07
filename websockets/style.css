@@ -1,0 +1,78 @@
+
+
+body {
+  font-family: 'Arvo', serif;
+  font-size: 2em;
+  line-height: 1.25;
+  color: #ffffff;
+}
+
+
+header h1{
+  position: fixed;
+  font-weight: 700;
+  top: 20px;
+  left: 26px;
+  z-index: 1;
+}
+
+header h2{
+  position: fixed;
+  font-size: 0.89em;
+  font-weight: 500;
+  top: 30px;
+  right: 36px;
+  z-index: 1;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+article#scroll {
+  position: absolute;
+  max-width: 800px;
+  overflow-y: auto;
+  overflow-x: scroll;
+}
+
+
+p {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1.4s;
+}
+
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: scroll;
+
+}
+
+.lottie{
+            width:30%;
+            height:30%;
+            opacity: 1;
+        }
+
+
+
